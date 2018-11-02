@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/admin-dashboard.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <title>SendIT: Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="wrapper">
+            <h1 class="tittle">
+                <a href="index.html">Send
+                    <span class="it">IT</span>
+                </a>
+                <i class="fas fa-angle-right first-icon"></i>
+                <i class="fas fa-angle-right first-icon2"></i>
+            </h1>
+
+            <ul class="mobile-hide">
+                <li>
+                    <a href="#">Send a Parcel</a>
+                </li>
+                <li>
+                    <a href="#">View Parcels</a>
+                </li>
+                <li>
+                    <a href="#bottom">About Us</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="dashboard">
+        <div class="profile">
+            <div class="left-section">
+                <h1 class="welcome">Welcome,
+                    <span id="user-or-admin">Admin</span>
+                    </h3>
+                    <p class="email">Email:
+                        <span id="email">user@sendit.com</span>
+                    </p>
+                    <hr class="style">
+                    <div class="order">
+                        <h3 class="Parcel-edited">Parcel Edited:
+                            <span id="total-order">1114</span>
+                        </h3>
+                    </div>
+            </div>
+            
+        </div>
+        <div class="form-container">
+            <h3 class="action-head">Action Box</h3>
+            <form action="#" method="get" class="action-form">
+                   
+                <input type="button" value="Change Destination" class="btn"><input type="text" name="change-des-action" id="change-des-action" placeholder="Input Parcel Quote" class="input">
+                
+                <br>
+                <input type="button" value="Change Status" class="btn"><input type="text" name="change-status-action" id="change-status-action" placeholder="Input Parcel Quote" class="input">
+                
+                <br>
+                <div class="action-result"><em>Returns Shows Here!</em> </div>
+            </form>
+        </div>
+        <table>
+            <h1 class="untop-table">ALL TRANSACTION</h1>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Quote</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Distance(KM)</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th>Username</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-column="date" class="date-cell">01-11-2018</td>
+                    <td data-column="quote" class="quote-cell">B12345</td>
+                    <td data-column="from" class="from-cell">Ojota</td>
+                    <td data-column="to" class="to-cell">Ikorodu</td>
+                    <td data-column="distance" class="distance-cell">12</td>
+                    <td data-column="price" class="price-cell">5000</td>
+                    <td data-column="status" class="status-cell">Delivered</td>
+                    <td data-column="username" class="status-cell">@username</td>
+                </tr>
+                <tr>
+                    <td data-column="date" class="date-cell">01-11-2018</td>
+                    <td data-column="quote" class="quote-cell">B12345</td>
+                    <td data-column="from" class="from-cell">Ojota</td>
+                    <td data-column="to" class="to-cell">Ikorodu</td>
+                    <td data-column="distance" class="distance-cell">12</td>
+                    <td data-column="price" class="price-cell">5000</td>
+                    <td data-column="status" class="status-cell">Delivered</td>
+                    <td data-column="username" class="status-cell">@username</td>
+                </tr>
+                <tr>
+                    <td data-column="date" class="date-cell">01-11-2018</td>
+                    <td data-column="quote" class="quote-cell">B12345</td>
+                    <td data-column="from" class="from-cell">Ojota</td>
+                    <td data-column="to" class="to-cell">Ikorodu</td>
+                    <td data-column="distance" class="distance-cell">12</td>
+                    <td data-column="price" class="price-cell">5000</td>
+                    <td data-column="status" class="status-cell">Delivered</td>
+                    <td data-column="username" class="status-cell">@username</td>
+                </tr>
+                <tr>
+                    <td data-column="date" class="date-cell">01-11-2018</td>
+                    <td data-column="quote" class="quote-cell">B12345</td>
+                    <td data-column="from" class="from-cell">Ojota</td>
+                    <td data-column="to" class="to-cell">Ikorodu</td>
+                    <td data-column="distance" class="distance-cell">12</td>
+                    <td data-column="price" class="price-cell">5000</td>
+                    <td data-column="status" class="status-cell">Delivered</td>
+                    <td data-column="username" class="status-cell">@username</td>
+                </tr>
+                <tr>
+                    <td data-column="date" class="date-cell">01-11-2018</td>
+                    <td data-column="quote" class="quote-cell">B12345</td>
+                    <td data-column="from" class="from-cell">Ojota</td>
+                    <td data-column="to" class="to-cell">Ikorodu</td>
+                    <td data-column="distance" class="distance-cell">12</td>
+                    <td data-column="price" class="price-cell">5000</td>
+                    <td data-column="status" class="status-cell">Delivered</td>
+                    <td data-column="username" class="status-cell">@username</td>
+                </tr>
+                <tr>
+                        <td data-column="date" class="date-cell">01-11-2018</td>
+                        <td data-column="quote" class="quote-cell">B12345</td>
+                        <td data-column="from" class="from-cell">Ojota</td>
+                        <td data-column="to" class="to-cell">Ikorodu</td>
+                        <td data-column="distance" class="distance-cell">12</td>
+                        <td data-column="price" class="price-cell">5000</td>
+                        <td data-column="status" class="status-cell">Delivered</td>
+                        <td data-column="username" class="status-cell">@username</td>
+                    </tr>
+                    <tr>
+                        <td data-column="date" class="date-cell">01-11-2018</td>
+                        <td data-column="quote" class="quote-cell">B12345</td>
+                        <td data-column="from" class="from-cell">Ojota</td>
+                        <td data-column="to" class="to-cell">Ikorodu</td>
+                        <td data-column="distance" class="distance-cell">12</td>
+                        <td data-column="price" class="price-cell">5000</td>
+                        <td data-column="status" class="status-cell">Delivered</td>
+                        <td data-column="username" class="status-cell">@username</td>
+                    </tr>
+                    <tr>
+                        <td data-column="date" class="date-cell">01-11-2018</td>
+                        <td data-column="quote" class="quote-cell">B12345</td>
+                        <td data-column="from" class="from-cell">Ojota</td>
+                        <td data-column="to" class="to-cell">Ikorodu</td>
+                        <td data-column="distance" class="distance-cell">12</td>
+                        <td data-column="price" class="price-cell">5000</td>
+                        <td data-column="status" class="status-cell">Delivered</td>
+                        <td data-column="username" class="status-cell">@username</td>
+                    </tr>
+                    <tr>
+                        <td data-column="date" class="date-cell">01-11-2018</td>
+                        <td data-column="quote" class="quote-cell">B12345</td>
+                        <td data-column="from" class="from-cell">Ojota</td>
+                        <td data-column="to" class="to-cell">Ikorodu</td>
+                        <td data-column="distance" class="distance-cell">12</td>
+                        <td data-column="price" class="price-cell">5000</td>
+                        <td data-column="status" class="status-cell">Delivered</td>
+                        <td data-column="username" class="status-cell">@username</td>
+                    </tr>
+                    <tr>
+                        <td data-column="date" class="date-cell">01-11-2018</td>
+                        <td data-column="quote" class="quote-cell">B12345</td>
+                        <td data-column="from" class="from-cell">Ojota</td>
+                        <td data-column="to" class="to-cell">Ikorodu</td>
+                        <td data-column="distance" class="distance-cell">12</td>
+                        <td data-column="price" class="price-cell">5000</td>
+                        <td data-column="status" class="status-cell">Delivered</td>
+                        <td data-column="username" class="status-cell">@username</td>
+                    </tr>
+                    <tr>
+                            <td data-column="date" class="date-cell">01-11-2018</td>
+                            <td data-column="quote" class="quote-cell">B12345</td>
+                            <td data-column="from" class="from-cell">Ojota</td>
+                            <td data-column="to" class="to-cell">Ikorodu</td>
+                            <td data-column="distance" class="distance-cell">12</td>
+                            <td data-column="price" class="price-cell">5000</td>
+                            <td data-column="status" class="status-cell">Delivered</td>
+                            <td data-column="username" class="status-cell">@username</td>
+                        </tr>
+                        <tr>
+                            <td data-column="date" class="date-cell">01-11-2018</td>
+                            <td data-column="quote" class="quote-cell">B12345</td>
+                            <td data-column="from" class="from-cell">Ojota</td>
+                            <td data-column="to" class="to-cell">Ikorodu</td>
+                            <td data-column="distance" class="distance-cell">12</td>
+                            <td data-column="price" class="price-cell">5000</td>
+                            <td data-column="status" class="status-cell">Delivered</td>
+                            <td data-column="username" class="status-cell">@username</td>
+                        </tr>
+                        <tr>
+                            <td data-column="date" class="date-cell">01-11-2018</td>
+                            <td data-column="quote" class="quote-cell">B12345</td>
+                            <td data-column="from" class="from-cell">Ojota</td>
+                            <td data-column="to" class="to-cell">Ikorodu</td>
+                            <td data-column="distance" class="distance-cell">12</td>
+                            <td data-column="price" class="price-cell">5000</td>
+                            <td data-column="status" class="status-cell">Delivered</td>
+                            <td data-column="username" class="status-cell">@username</td>
+                        </tr>
+                        <tr>
+                            <td data-column="date" class="date-cell">01-11-2018</td>
+                            <td data-column="quote" class="quote-cell">B12345</td>
+                            <td data-column="from" class="from-cell">Ojota</td>
+                            <td data-column="to" class="to-cell">Ikorodu</td>
+                            <td data-column="distance" class="distance-cell">12</td>
+                            <td data-column="price" class="price-cell">5000</td>
+                            <td data-column="status" class="status-cell">Delivered</td>
+                            <td data-column="username" class="status-cell">@username</td>
+                        </tr>
+                        <tr>
+                            <td data-column="date" class="date-cell">01-11-2018</td>
+                            <td data-column="quote" class="quote-cell">B12345</td>
+                            <td data-column="from" class="from-cell">Ojota</td>
+                            <td data-column="to" class="to-cell">Ikorodu</td>
+                            <td data-column="distance" class="distance-cell">12</td>
+                            <td data-column="price" class="price-cell">5000</td>
+                            <td data-column="status" class="status-cell">Delivered</td>
+                            <td data-column="username" class="status-cell">@username</td>
+                        </tr><tr>
+                                <td data-column="date" class="date-cell">01-11-2018</td>
+                                <td data-column="quote" class="quote-cell">B12345</td>
+                                <td data-column="from" class="from-cell">Ojota</td>
+                                <td data-column="to" class="to-cell">Ikorodu</td>
+                                <td data-column="distance" class="distance-cell">12</td>
+                                <td data-column="price" class="price-cell">5000</td>
+                                <td data-column="status" class="status-cell">Delivered</td>
+                                <td data-column="username" class="status-cell">@username</td>
+                            </tr>
+                            <tr>
+                                <td data-column="date" class="date-cell">01-11-2018</td>
+                                <td data-column="quote" class="quote-cell">B12345</td>
+                                <td data-column="from" class="from-cell">Ojota</td>
+                                <td data-column="to" class="to-cell">Ikorodu</td>
+                                <td data-column="distance" class="distance-cell">12</td>
+                                <td data-column="price" class="price-cell">5000</td>
+                                <td data-column="status" class="status-cell">Delivered</td>
+                                <td data-column="username" class="status-cell">@username</td>
+                            </tr>
+                            <tr>
+                                <td data-column="date" class="date-cell">01-11-2018</td>
+                                <td data-column="quote" class="quote-cell">B12345</td>
+                                <td data-column="from" class="from-cell">Ojota</td>
+                                <td data-column="to" class="to-cell">Ikorodu</td>
+                                <td data-column="distance" class="distance-cell">12</td>
+                                <td data-column="price" class="price-cell">5000</td>
+                                <td data-column="status" class="status-cell">Delivered</td>
+                                <td data-column="username" class="status-cell">@username</td>
+                            </tr>
+                            <tr>
+                                <td data-column="date" class="date-cell">01-11-2018</td>
+                                <td data-column="quote" class="quote-cell">B12345</td>
+                                <td data-column="from" class="from-cell">Ojota</td>
+                                <td data-column="to" class="to-cell">Ikorodu</td>
+                                <td data-column="distance" class="distance-cell">12</td>
+                                <td data-column="price" class="price-cell">5000</td>
+                                <td data-column="status" class="status-cell">Delivered</td>
+                                <td data-column="username" class="status-cell">@username</td>
+                            </tr>
+                            <tr>
+                                <td data-column="date" class="date-cell">01-11-2018</td>
+                                <td data-column="quote" class="quote-cell">B12345</td>
+                                <td data-column="from" class="from-cell">Ojota</td>
+                                <td data-column="to" class="to-cell">Ikorodu</td>
+                                <td data-column="distance" class="distance-cell">12</td>
+                                <td data-column="price" class="price-cell">5000</td>
+                                <td data-column="status" class="status-cell">Delivered</td>
+                                <td data-column="username" class="status-cell">@username</td>
+                            </tr>
+            </tbody>
+        </table>
+        <div class="search-box"> <input type="button" value="Search" class="btn"><input type="search" name="search" id="search-quote" placeholder="Enter Parcel Quote" class="input">
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer-item1">
+            <h3 class="footer-heading" id="bottom">About</h3>
+            <p>SendIT is a courier service that helps users
+                <br> deliver parcels to different destinations.
+                <br>SendIT provides courier quotes based on weight
+                <br>categories.</p>
+        </div>
+        <div class="footer-item2">
+            <h3 class="footer-heading">Social</h3>
+            <a href="#"="social">
+                <i class="fab fa-github icon social-icon"></i> GitHub</a>
+            <br>
+            <a href="#" class="social">
+                <i class="fas fa-envelope icon social-icon"></i> Mail</a>
+            <p class="disclaimer">Copyright@ Andela 2018.</p>
+        </div>
+    </div>
+    <script src="Javascript/admin-dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Login/Signup Form</title>
+  <link rel="stylesheet" href="CSS/login-signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+</head>
+<body>
+  <h1 class="tittle">
+        <a href="index.html">Send<span class="it">IT</span></a><i class="fa fa-angle-right first-icon"></i><i class="fa fa-angle-right first-icon2"></i>
+  </h1> <hr>
+  <div class="form">
+    <div class="head" class="signup">
+      <div onclick="swap(this);" data-tab="login" class="login-tab" >
+        LOGIN
+      </div>
+      <div onclick="swap(this);" data-tab="signup" class="signup-tab">
+        SIGNUP
+      </div>
+    </div>
+    <div class="body" id="form-body">
+        <div class="login">
+          <div class="form-row">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="email" placeholder="Email">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password" placeholder="Password">
+            <button class="log-in">Login</button> <br><br>
+            <span class="forget-pass"><a href="#">Forget Password?</a></span>
+          </div>
+        </div>
+        <div class="signup second-row">
+          <div class="form-row">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <input type="text" placeholder="Username">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="email" placeholder="Email">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="Password" placeholder="Password">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="Password" placeholder="Re-Type Password">
+            <button class="sign-up">Sign Up</button>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="Javascript/login-signup.js"></script>
+</body>
+</html>
