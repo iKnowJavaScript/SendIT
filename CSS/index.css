@@ -24,6 +24,8 @@ div.header {
 div.wrapper {
     padding: 15px 20px;
     display: flex;
+    justify-content: space-between;
+    margin-right: -150px;
 }
 
 
@@ -283,6 +285,7 @@ ul.mobile-hide {
     }
     div.wrapper {
         display: block;
+        margin-right: 0px;
     }
     h1.tittle {
         text-align: center;
@@ -385,7 +388,7 @@ ul.mobile-hide {
       padding: 5px;  
     }
     div.container {
-        margin-top: -100px;  
+        margin-top: -40px;  
       }
       div.heading-form {
           display: flex;
@@ -412,6 +415,9 @@ ul.mobile-hide {
     ul.mobile-hide>li {
         margin-left: 16px; 
     }
+    div.container {
+        margin-top: -10px;  
+      }
     div.form-two, {
         display: none!important;
     }
