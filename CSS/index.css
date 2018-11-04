@@ -405,6 +405,10 @@ ul.mobile-hide {
 
 }
 @media all and (max-width: 300px) {
+    html {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
     div.header {
         width: 100vw;
     }
