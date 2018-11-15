@@ -1,8 +1,29 @@
 const parcels = [
-	{ quote: 1, username: 'user1', date: '10-10-2018' },
-	{ quote: 2, username: 'user2', date: '11-10-2018' },
-	{ quote: 3, username: 'user3', date: '12-10-2018' },
+	{ 
+		parcelId: 1, 
+		userId: 1,
+		weight: 10,
+		receiver: 'Omolayo Victor',
+		pickup: '10 oyebanjo, ketu lagos',
+		destination: '24 somefun, Ojokoro lagos',
+	},
+	{ 
+		parcelId: 2, 
+		userId: 1,
+		weight: 15,
+		receiver: 'Ogunleye Leke',
+		pickup: '1 ahmedu bello way, lagos',
+		destination: '234 federal palace Victorial  island lagos',
+	},
+	{ 
+		parcelId: 3, 
+		userId: 1,
+		weight: 20,
+		receiver: 'Olorundare K',
+		pickup: '10 oyebanjo, ketu lagos',
+		destination: '24 isiaka, ketu lagos',
+	},
 ];
 
 
-module.exports = parcels;
+export default parcels;

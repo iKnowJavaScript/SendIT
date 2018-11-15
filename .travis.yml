@@ -1,10 +1,7 @@
 language: node_js
 node_js:
-  - "10.9.0"
+  - stable
 
 script:
-  - npm test
-  - npm run coverage
+  - npm install
 
-before_install:
-  - npm i -g babel-preset-env mocha supertest node-dev babel-cli rimraf coveralls istanbul

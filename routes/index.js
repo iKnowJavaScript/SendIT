@@ -1,10 +1,11 @@
-const express = require('express');
-const router = express.Router();
-const parcels = require('./parcels.route');
+import express from 'express';
+import parcels from './ParcelRoutes';
 
-router.use('/api/v1/parcels', parcels)
+const router = express.Router();
+
+router.use('/', parcels)
 router.all('/', (req, res) => {
     res.json({ message: "welcome to the awesome api"});
 });
 
-module.exports = router;
+export default router;
